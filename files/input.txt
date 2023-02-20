@@ -1,0 +1,1 @@
+It is the sample text that have been read on another file by using readFileSync
