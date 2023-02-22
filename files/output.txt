@@ -1,2 +1,3 @@
-Data read from the input text :It is the sample text that have been read on another file by using readFileSync
-. Date is  Thu Feb 16 2023 11:50:27 GMT+0530 (India Standard Time)
+here the new data  Data read from the input text :It is the sample text that have been read on another file by using readFileSync
+. Date is  Tue Feb 21 2023 11:51:22 GMT+0530 (India Standard Time)
+

@@ -7,15 +7,16 @@
 
 
 
-const readline=require('readline');
+// const readline=require('readline');
 const fs=require('fs');
 
 let text=fs.readFileSync('./files/input.txt', 'utf-8');
 console.log(text);
 
 
-let content=`Data read from the input text :${text}. Date is  ${new Date()}`
+let content=`here the new data  Data read from the input text :${text}. Date is  ${new Date()}`
 fs.writeFileSync('./files/output.txt', content)
+console.log(content);
 
 
 
