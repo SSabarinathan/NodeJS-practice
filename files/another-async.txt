@@ -1,0 +1,1 @@
+It is the another async file which used the async keyword and await on it.
