@@ -1,10 +1,10 @@
 let http = require('http');
 
 //create a server object:
-http.createServer(function (req, res) {
+http.createServer(function (request, respond) {
 
-  res.write('Sabari server works!');
-  res.end();
+  respond.write('Sabari server works!');
+  respond.end();
 }).listen(8080);
 console.log("loading on 'localhost:8080'");
 
