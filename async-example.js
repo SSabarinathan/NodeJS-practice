@@ -1,6 +1,6 @@
-const fs=require('fs');
+import { readFile } from 'fs';
 
-fs.readFile('./files/exampleData.txt', 'utf-8', (err, data)=>{
+readFile('./files/exampleData.txt', 'utf-8', (err, data)=>{
     if(err){
         console.log("Error Message");
     }

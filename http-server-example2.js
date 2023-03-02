@@ -1,9 +1,9 @@
-const http=require('http');
-const htmlPage=require('fs');
+import { createServer } from 'http';
+import { readFileSync } from 'fs';
 
-const html=htmlPage.readFileSync('./files/server-example.html')
+const html=readFileSync('./files/server-example.html')
 
-const server=http.createServer((request, respond)=>{
+const server=createServer((request, respond)=>{
   respond.write('<h1>New Server created </h1>');
   respond.write(html);
   respond.end('Hello from the server. Created by sabarinathan');

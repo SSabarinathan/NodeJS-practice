@@ -1,7 +1,7 @@
-let http = require('http');
+import { createServer } from 'http';
 
 //create a server object:
-http.createServer(function (request, respond) {
+createServer(function (request, respond) {
 
   respond.write('Sabari server works!');
   respond.end();

@@ -1,5 +1,5 @@
 
-const result=require('./files/export-example-files')
+import { function1, function2 } from './files/export-example-files';
 
 //1st method
 // result.first();
@@ -7,5 +7,5 @@ const result=require('./files/export-example-files')
 
 
 //another method
-result.function1();
-result.function2();
+function1();
+function2();

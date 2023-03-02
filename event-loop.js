@@ -1,8 +1,8 @@
-const fs = require("fs");
+import { readFile } from "fs";
 
 console.log("Program has started ");
 
-fs.readFile("./files/input.txt", () => {
+readFile("./files/input.txt", () => {
   console.log("File read completed");
 
   setTimeout(() => {

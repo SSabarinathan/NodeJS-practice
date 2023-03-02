@@ -1,10 +1,10 @@
-const inquirer=require ('inquirer');
+import { prompt } from 'inquirer';
 const question=[{
     type: 'input',
     name: 'name',
     message: "What's your name?",
   },
 ];
-inquirer.prompt(question).then(answer=>{
+prompt(question).then(answer=>{
     console.log(answer);
 })

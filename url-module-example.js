@@ -1,7 +1,7 @@
-const url = require('url');
+import { URL } from 'url';
 
 
-const myUrl = new url.URL('https://username:SabariPassword@www.example.com:8080/path/to/page?query=queryString#fragment');
+const myUrl = new URL('https://username:SabariPassword@www.example.com:8080/path/to/page?query=queryString#fragment');
 
 
 console.log(`Hash value is :${myUrl.hash}`);

@@ -1,5 +1,5 @@
 //here the startEvent and start are the event we created
-const EventEmitter=require('events');
+import EventEmitter from 'events';
 
 const eventEmitter=new EventEmitter();
 eventEmitter.on('startEvent',()=>{
