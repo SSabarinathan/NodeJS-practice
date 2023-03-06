@@ -19,5 +19,8 @@
   "homepage": "https://github.com/SSabarinathan/NodeJS-practice#readme",
   "dependencies": {
     "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
   }
 }
