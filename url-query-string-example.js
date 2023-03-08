@@ -11,6 +11,6 @@ const user1={
 console.log(answer);
 console.log(answer1);
 const decode_value=decode(user);
-console.log(decode_value);
+console.log('Decode value is : ',decode_value);
 const encode_value=encode(user1);
-console.log(encode_value);
+console.log('Encode value is : ',encode_value);

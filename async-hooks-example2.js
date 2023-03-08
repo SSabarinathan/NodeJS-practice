@@ -1,6 +1,6 @@
 import { createHook } from 'async_hooks';
 
-const asyncHooks= createHook(init(), before())({
+const asyncHooks= createHook({
   init(){
     console.log('sdv');
 
@@ -20,17 +20,17 @@ const asyncHooks= createHook(init(), before())({
   }
 });
 
-  function init(asyncId, type, triggeredId){
-    console.log(`Init async ID is :${asyncId} and the type is :${type} , triggeredID is ${triggeredId} `);
-  };
- function  before(asyncID){
-    console.log(`Before async ID is : ${asyncID}`);
-  };
+//   function init(asyncId, type, triggeredId){
+//     console.log(`Init async ID is :${asyncId} and the type is :${type} , triggeredID is ${triggeredId} `);
+//   };
+//  function  before(asyncID){
+//     console.log(`Before async ID is : ${asyncID}`);
+//   };
 
 function demo(){
   console.log('Inside the demo function.');
 }
 demo();
-// asyncHooks.disable();
 asyncHooks.enable();
+// asyncHooks.disable();
 

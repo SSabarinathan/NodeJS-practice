@@ -1,3 +1,4 @@
+
 import { readFile } from 'fs';
 
 readFile('./files/exampleData.txt', 'utf-8', (err, data)=>{

@@ -4,8 +4,8 @@ import { readFileSync } from 'fs';
 const html=readFileSync('./files/server-example.html')
 
 const server=createServer((request, respond)=>{
-  respond.write('<h1>New Server created </h1>');
   respond.write(html);
+  respond.write('<h1>New Server created </h1>');
   respond.end('Hello from the server. Created by sabarinathan');
   console.log('A new request received');
 

@@ -10,7 +10,7 @@ readFile("./files/input.txt", () => {
   }, 0);
 
   setImmediate(() => {
-    console.log("Immediate callback executed");
+    console.log("Immediate callback executed2");
   });
 
   process.nextTick(()=>{
@@ -18,5 +18,9 @@ readFile("./files/input.txt", () => {
   })
 
 });
+setImmediate(() => {
+    console.log("Immediate callback executed1");
+  });
+  
 
 console.log("Program has ended");

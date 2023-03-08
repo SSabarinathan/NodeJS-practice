@@ -1,4 +1,6 @@
-import { prompt } from 'inquirer';
+import prompt1 from 'inquirer';
+const {prompt}=  prompt1;
+
 const question=[{
     type: 'input',
     name: 'name',
@@ -6,5 +8,5 @@ const question=[{
   },
 ];
 prompt(question).then(answer=>{
-    console.log(answer);
+    console.log('Hi ',answer, ' have a wonderful day!!');
 })

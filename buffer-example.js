@@ -68,17 +68,17 @@ console.log("Length is ",byte_value_is);
 
 const required_value= Buffer.from('There are 100 words');
 const required_result= required_value.toString('utf-8', 1, 11)
-console.log(required_result);
+console.log('Result after we separate : ',required_result);
 
 
-//9.buf.write(string[, offset[, length[, encoding]]])
+// //9.buf.write(string[, offset[, length[, encoding]]])
 
 
-const write_text=Buffer.alloc(10);
-const write_result=write_text.write('Sabari',3,10,'utf-8')
+// const write_text=Buffer.alloc(10);
+// const write_result=write_text.write('Sabari',3,10,'utf-8')
 
-console.log("Written text is :", write_result);
-console.log(write_text.toString('utf-8'));
+// console.log("Written text is :", write_result);
+// console.log(write_text.toString('utf-8'));
 
 
 

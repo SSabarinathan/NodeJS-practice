@@ -15,15 +15,18 @@ rl.question("Enter your name: " , (name)=>{
 
 rl.on('close',()=>{
     console.log("Interface Closed ");
+
+
+
+
+
+    
 ////////////////////////////////////////////////////////
-console.log('My %s has %d ears', 'cat', 2);
-const chalk = require('chalk');
+// console.log('My %s has %d ears', 'cat', 2);
+// const chalk = require('chalk');
 
-console.log(chalk.blue('hi!'));
-
-
-
-    process.exit(0);
+// console.log(chalk.blue('hi!'));
+// process.exit(0);
 
 })
 

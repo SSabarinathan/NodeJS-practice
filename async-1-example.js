@@ -12,8 +12,7 @@ async function readFileAsync() {
 
 // Call the asynchronous function
 readFileAsync();
-console.log('Program continues to execute.');
-
+console.log('Program continues to execute in Async manner.h');
 
 
 
